@@ -1,0 +1,52 @@
+.cabecera__inicial{
+    background: black;
+    padding-left: 30px;
+    padding-top: 8px;
+    height: 50px;
+    color: white;
+}
+header{
+    height: 80px;
+    background: white;
+    padding: 8px;
+  
+}
+.cabecera__logo{
+    width: 125px;
+    display: inline;
+    padding-left: 10px;
+    float: left;
+}
+nav{
+    float: left;
+    margin-left: 120px;
+    padding-top: 15px;
+    li{
+        padding: 15px;
+        list-style: none;
+        display: inline;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: rgb(243, 89, 72);
+        font-size: x-large;
+        box-shadow:2px 2px 2px 2px  rgb(0, 162, 255);;
+    }
+}
+.cabecera__ingreso{
+    float: right;
+    width: 225px;   
+    padding-top: 15px;;
+    img{
+        float: left;
+    }
+    a{
+        padding-top: 10px;
+        text-decoration: none;
+        color:$color;
+        float: left;
+    }
+}

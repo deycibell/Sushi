@@ -1,0 +1,15 @@
+@import "helpers/variables";
+@import "layout/header";
+@import "layout/section";
+@import "layout/footer";
+
+.banner{
+    margin-top: 1px;
+    background: $fondo;
+    height: 400px;
+    width: 100%;
+    img{
+        padding: 60px;
+    }
+}
+
